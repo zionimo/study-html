@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML 추가 input요소</title>
+  </head>
+  <body>
+    <h1>추가된 Input 요소</h1>
+    <!-- input의 display는 inline이나 확인을 위해 block으로 설정 -->
+    <input type="number" value="10" step="5" max="100" min="0" /><br />
+    <input type="range" min="0" max="10" /><br />
+    <input type="color" value="#ff0000" /><br />
+    <input type="date" value="2022-08-24" min="2022-08-23" /><br />
+    <input type="datetime-local" /><br />
+    <input type="month" /><br />
+    <input type="week" /><br />
+    <input type="email" /><br />
+    <p>input의 이메일타입은 입력받은 값에 @가 있는지 없는지를 확인해준다</p>
+    <br />
+    <input type="url" /><br />
+    <input type="tel" /><br />
+    <input type="search" />
+
+    <h1>input 속성</h1>
+    <form action="" autocomplete="on">
+      <input type="text" name="value" autofocus placeholder="아무값이나 입력하세요" required />
+      <input type="submit" value="제출" />
+    </form>
+  </body>
+</html>
